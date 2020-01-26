@@ -1,0 +1,47 @@
+{
+	"Vue composition API starter component's template": {
+		"prefix": "<t",
+		"body": [
+			"<template>",
+			"	",
+			"</template>",
+			"",
+			"<script lang='ts'>",
+			"import { createComponent } from '@vue/composition-api'"
+			"",
+			"export default createComponent ({",
+			"	name: '$1',",
+			"})",
+			"</script>",
+			"",
+			"<style lang='sass'>",
+			"",
+			"</style>"
+		],
+		"description": "Create Vue composition API starter component's template"
+	},
+
+	"Vue composition API script section": {
+		"prefix": "<s",
+		"body": [
+			"<script lang='ts'>",
+			"import { createComponent } from '@vue/composition-api'"
+			"",
+			"export default createComponent ({",
+			"	name: '$1',",
+			"})",
+			"</script>"
+		],
+		"description": "Create Vue composition API script section"
+	},
+
+	"Vue sass style section": {
+		"prefix": "<st",
+		"body": [
+			"<style lang='sass'>",
+			"	$1",
+			"</style>"
+		],
+		"description": "Create Vue sass style section"
+	}
+}
